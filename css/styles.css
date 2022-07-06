@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --color-blue: #2C3E50;
+    --color-green: #1ABC9C;
+    --color-white: #fff;
+    --color-yellow: #fff964;
+ }
+
+ * {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a, a:hover {
+    color: unset;
+    text-decoration: none;
+  }
+
+ header {
+     background-color: var(--color-blue);
+     height: 100px;
+     display: flex;
+     align-items: center;
+     padding: 0px 15px;
+       
+ }
+ nav {
+     display: flex;
+    justify-content: space-between;
+     
+ }
+
+ nav h1 {
+     color: var(--color-white);
+     font-size: 30px;
+     font-weight: 700;
+ }
+
+ nav p {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  #user {
+      background-color: var(--color-green);
+      color: var(--color-white);
+      height: 406px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  #user h2 {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  #user p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  #porfolio-content {
+      background-color: var(--color-white);
+      color: var(--color-blue);
+      text-align: center;
+      margin: 60px;
+     
+  }
+   #porfolio-content h1 {
+    font-weight: 700;
+    font-size: 48px;
+   }
+
+   .imagem-portifolio {
+       margin-top: 46px;
+      }
+
+      footer {
+          background-color: var(--color-blue);
+          height: 120px;
+          color: var(--color-white);
+          display: flex;
+          justify-content: center;
+      }
+      .div-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
